@@ -39,3 +39,22 @@ Only when you have a working Dockerfile and Image published to the repository, m
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+As a Devops Engineer at Craftista, you have been tasked with packaging the Recommendation Service and build a container image for it. The details are as follows,
+
+Details
+Repo	https://github.com/craftista/craftista
+Application Path	https://github.com/craftista/craftista/tree/main/recommendation
+Application Language	Golang
+Framework	–
+Build Tool	go
+Reference build command	go build -o app
+Reference launch command	./app
+Application Port	8080
+Best Practices:
+Try to optimize the image with Multi Stage Dockerfile if necessary and possible
+Try to use small and secure base image
+Launch the application as a non root user
+Only when you have a working Dockerfile and Image published to the repository, mark this as complete.
