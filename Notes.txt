@@ -1,0 +1,16 @@
+As a Devops Engineer at Craftista, you have been tasked with packaging the Frontend App and build a container image for it. The details are as follows,
+
+Details
+Repo	https://github.com/craftista/craftista
+Application Path	https://github.com/craftista/craftista/tree/main/frontend
+Application Language	NodeJS
+Framework	ExpressJS
+Build Tool	npm
+Reference build command	npm install
+Reference launch command	node app.js
+Application Port	3000
+Best Practices:
+Try to optimize the image with Multi Stage Dockerfile
+Try to use small and secure base image
+Launch the application as a non root user
+Only when you have a working Dockerfile and Image published to the repository, mark this as complete.
